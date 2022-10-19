@@ -31,3 +31,15 @@ Run commands
   - Read command
     node app read --title="title of note"
       // prints out a note from the json
+
+
+Other utilities avalaible
+   - node app --help
+      To see at a glance all available commands and their description
+
+   - node app --version
+     To check for yargs version.
+
+
+Note :
+   The yargs.argv at the last line was later replaced with the yargs.parse(), this removes the need for an extra console.log(), and also helps to show the console as we want.
