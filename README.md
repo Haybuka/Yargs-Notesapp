@@ -15,3 +15,19 @@ Continued Development
    This project can further be expanded using yargs, to query database, or pass and parse in values that require extra input as related to terminal.
 
 For more usage of the modules, do reference their documentations on npmjs.com
+
+Run commands
+  
+  - Add commands
+    node app add --title="Note title" --body="Note body"
+
+  - Remove command
+    node app remove --title="tempest"
+
+  - List command
+    node app list 
+      // list all available notes
+    
+  - Read command
+    node app read --title="title of note"
+      // prints out a note from the json
